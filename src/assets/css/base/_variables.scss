@@ -1,0 +1,91 @@
+html,
+body {
+    min-height: 100%;
+    background-color: #fff;
+    /* overflow: auto;*/
+    font-size: 62.5%;
+}
+
+@import "custom-fonts";
+/* Breakpoints*/
+$medium-screen: 600px;
+$large-screen: 900px;
+$med-screen: 700px;
+
+/* Typography*/
+$ssp_light: "SourceSansPro-Light";
+/* $ssp_medium: "SoinSansPro-Medium";*/
+/* $ssp_bold: "SoinSansPro-Bold";*/
+/* $ssp_roman: "SoinSansPro-Roman";*/
+/* $ssp_roman_oblique: "SoinSansPro-RomanOblique";*/
+/* $ssp_thin: "SoinSansPro-Thin";*/
+/* $ssp_thin_oblique: "SoinSansPro-ThinOblique";*/
+/* $base-font-family: $ssp_roman;*/
+/* $heading-font-family: $ssp_medium;*/
+
+
+$ssp_medium: "SourceSansPro-Semibold";
+$ssp_roman: "SourceSansPro-Regular";
+$ssp_bold: "SourceSansPro-Bold";
+$ssp_roman-soin: "SoinSansPro-Roman";
+$ssp_medium-soin: "SoinSansPro-Medium";
+$base-font-family: $ssp_roman;
+$heading-font-family: $ssp_medium-soin;
+
+
+/* Font Sizes*/
+$base-font-size: 1.4rem;
+
+/* Font Sizes for TMB*/
+$base-font-size-tmb: 14px;
+$heading-font-size-tmb: 24px;
+
+/* Line height*/
+$base-line-height: 1.5;
+$heading-line-height: 1.2;
+
+/* Other Sizes*/
+$base-border-radius: 4px;
+$base-spacing: $base-line-height * 1rem;
+$small-spacing: $base-spacing / 2;
+$base-z-index: 0;
+
+/* Colors*/
+$blue: #1565c0;
+$dark-gray: #333;
+$medium-gray: #999;
+$light-gray: #ddd;
+$red: #ff5f5f;
+$green: #47cbae;
+$yellow: #e5a905;
+$font-grey:#777777;
+
+/* Font Colors*/
+$base-font-color: $dark-gray;
+$action-color: #e86154;
+$golden-color: #9a6c21;
+$heading-color: #555;
+$base-color: #777;
+$page-heading: #333;
+$input-border-color: rgba(153, 153, 153, 0.5);
+$input-border-color--hover: #e5a905;
+
+/* Border*/
+$base-border-color: $light-gray;
+$base-border: 1px solid $base-border-color;
+
+/* Background Colors*/
+$base-background-color: #fff;
+$secondary-background-color: tint($base-border-color, 75%);
+
+/* Forms*/
+$form-box-shadow: inset 0 1px 3px rgba(#000, .06);
+$form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -.3);
+
+/* Animations*/
+$base-duration: 150ms;
+$base-timing: ease;
+
+/*Watch Outs*/
+$watch-out-high-color: #ff2e00;
+$watch-out-moderate-color: #59a5ff;

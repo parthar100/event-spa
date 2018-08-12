@@ -1,0 +1,56 @@
+body {
+  width: 80%;
+  margin: 100px auto;
+  background-color: lightgray;
+  font-family: 'Kanit', sans-serif;
+}
+
+.calendar-base {
+  width: 1118px;
+  height: 500px;
+  border-radius: 20px;
+  background-color: white;
+  position: relative;
+  color: black;
+}
+
+.year {
+  color: #E8E8E8;
+  font-size: 30px;
+  float: right;
+  position: relative;
+  right: 75px;
+  top: 20px;
+  font-weight: bold;
+}
+
+.month-line {
+  border-color: #E8E8E8;
+  position: relative;
+  top: 85px;
+  width: 57%;
+  left: 178px;
+}
+
+.num-dates {
+  float: right;
+  position: relative;
+  top: 110px;
+  right: 50px;
+  z-index: 1;
+}
+
+.first-week {
+  margin-bottom: 25px;
+  word-spacing: 2px;
+}
+
+.event-indicator {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #2980B9;
+  position: relative;
+  top: 304px;
+  left: 695px;
+}

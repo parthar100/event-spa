@@ -1,0 +1,34 @@
+[include]
+src/api/.*
+src/components/**/.*
+src/router/.*
+src/store/.*
+src/utils/.*
+
+[ignore]
+.*/build/.*
+.*/config/.*
+.*/dist/.*
+.*/node_modules/.*
+.*/static/.*
+.*/test/.*
+.*/ssl/.*
+.*/src/assets/.*
+
+[libs]
+./flow/
+./flow-typed/npm/
+
+[options]
+emoji=true
+module.file_ext=.vue
+module.file_ext=.js
+module.file_ext=.css
+module.file_ext=.scss
+server.max_workers=3
+log.file=./flow.log
+suppress_comment= \\(.\\|\n\\)*\\$FlowFixMe
+module.system.node.resolve_dirname=node_modules
+module.name_mapper='.*\(.css\)' -> 'empty/object'
+module.name_mapper='^.*\.js$' -> 'empty/object'
+module.name_mapper='^@/\(.*\)$' -> '<PROJECT_ROOT>/src/\1'
